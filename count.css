@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 200px;
+}
+.container{
+    background-color: rgb(44, 42, 42);
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2fr 1fr;
+    gap: 10px;
+    position: relative;
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.launch{
+    position: relative;
+    /* top: 10px; */
+    left: 100px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 800px;
+   
+}
+.launchMessage{
+    height: 100px;
+    
+}
+.timeName{
+ color: white;
+ font-size: 1rem;
+ font-weight: 600;   
+}
+.timeDigit{
+    color: rgb(164, 64, 64);
+    font-size: 3.0rem;
+    font-weight: bold;
+    /* background-color: yellowgreen; */
+    position: relative;
+    
+}
+.material-icons{
+    color: white;
+    
+}
+ .selectedMedia{
+   width: 400px; 
+   height: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   
+} 
+.facebook{
+    position: relative;
+    left: 50px; 
+  
+}
+.instagram{
+    position: relative;
+    right: 50px;   
+    
+    
+}
+.pinterest{
+    position: relative;
+    /* left: 0px; */
+    
+}
+.material-icons{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
